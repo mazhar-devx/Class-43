@@ -1,0 +1,6 @@
+export const BgTheme = " h-12 w-12  rounded-xl shadow-lg  flex items-center justify-center"
+export const Bg1 = "bg-[#72cd92] top-10 right-1 shadow-[#bfeccf] "
+export const Bg2 = "bg-[#6bbcf8] bottom-10 left-1 shadow-[#bde8fe]"
+export const Bg3 = "bg-[#ed7d46] top-1 left-10 shadow-[#f8ccaf]" 
+export const Bg4 = "bg-[#6d6cce] -bottom-6 right-5 shadow-[#bdbffa]"
+export const Bg5 = "bg-[#5a8cfc] absolute  rounded-3xl top-20 left-20"

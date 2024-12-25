@@ -1,0 +1,1 @@
+export const BgTheme = "w-full bg-[#598dfc] py-3 flex items-center justify-center rounded-full text-white"
