@@ -6,7 +6,7 @@ let Icons = props.icon
     <div>
      <div className={`${props.className} absolute `}>
       {
-        <Icons className="text-white text-2xl"/>
+        <Icons className="text-white text-3xl"/>
       }
      </div>
     </div>
