@@ -1,1 +1,0 @@
-export const miniLine = "text-[#94959a] font-medium text-sm px-3 py-1 flex items-center justify-center rounded-md bg-[#f6f7f9] shadow-sm";
