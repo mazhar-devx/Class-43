@@ -91,7 +91,7 @@ export default function Page_2() {
 
         <Button text="Search" />
       </div>
-      <div className="w-full p-3 h-[34rem] pt-[12.5rem] pb-24 overflow-y-scroll overflow-x-hidden overflow-hidden bg-[#f6f7f9] flex flex-col gap-4 items-center justify-center ">
+      <div className="w-full p-3 h-[34rem] pt-[12.5rem] pb-20 overflow-y-scroll overflow-x-hidden overflow-hidden bg-[#f6f7f9] flex flex-col gap-4 items-center justify-center ">
         <div className="bg-white fixed top-[19.4rem] transition-all w-full p-2 rounded-full shadow-sm flex items-center justify-center gap-2">
         <Buttons text="Recent Jobs" className=" bg-black  text-[#dcdcdc] "/>
         <Buttons text="Popular Jobs" className=" hover:bg-black text-[#959597] hover:text-[#dcdcdc] "/>
