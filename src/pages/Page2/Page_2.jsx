@@ -16,7 +16,7 @@ import { GiFireAce } from "react-icons/gi";
 import { GiFangsCircle } from "react-icons/gi";
 export default function Page_2() {
   return (
-    <div className=" select-none">
+    <div className=" select-none ">
       <div className="w-full fixed bottom-0 bg-white h-20 border-t-2 flex items-center justify-between px-6 border-[#f1f1f1] ">
         <div className="h-10 w-10 flex items-center group transition-all hover:bg-transparent justify-center rounded-full bg-[#eaf2fd]">
           <RiLayout2Fill className="text-xl text-[#568efb] group-hover:text-[#5e5e5e]" />
@@ -38,7 +38,7 @@ export default function Page_2() {
           />
         </div>
       </div>
-      <div className="flex w-full justify-between items-center p-4">
+      <div className="flex  w-full justify-between items-center p-4">
         <div className="flex gap-3 items-center">
           <RiFlowerFill className="text-3xl text-[#5890fb]" />
 
@@ -60,7 +60,7 @@ export default function Page_2() {
           <input
             type="text"
             placeholder="Search type job"
-            className="p-4 pr-20 bg-[#f6f7f9] placeholder:text-[#a9aaac] placeholder:font-medium w-full rounded-full border border-[#e5e5e7] "
+            className="p-3.5 pr-20 bg-[#f6f7f9] placeholder:text-[#a9aaac] placeholder:font-medium w-full rounded-full border border-[#e5e5e7] "
           />
           <div className=" absolute bg-white h-10 w-10 shadow-sm right-3 top-2 rounded-full flex items-center justify-center">
             <IoSearch className="text-lg text-[#464646]" />
@@ -71,7 +71,7 @@ export default function Page_2() {
             <input
               type="text"
               placeholder="Job type...."
-              className="p-4 pr-16 bg-[#f6f7f9] placeholder:text-[#a9aaac] placeholder:font-medium w-full rounded-full border border-[#e5e5e7] "
+              className="p-3.5 pr-16 bg-[#f6f7f9] placeholder:text-[#a9aaac] placeholder:font-medium w-full rounded-full border border-[#e5e5e7] "
             />
             <div className=" absolute bg-white shadow-sm h-10 w-10 right-3 top-2 rounded-full flex items-center justify-center">
               <IoBagOutline className="text-[#434343] text-xl " />
@@ -81,7 +81,7 @@ export default function Page_2() {
             <input
               type="text"
               placeholder="Location..."
-              className="p-4 pr-16 bg-[#f6f7f9] placeholder:text-[#a9aaac] placeholder:font-medium w-full rounded-full border border-[#e5e5e7] "
+              className="p-3.5 pr-16 bg-[#f6f7f9] placeholder:text-[#a9aaac] placeholder:font-medium w-full rounded-full border border-[#e5e5e7] "
             />
             <div className=" absolute bg-white shadow-sm h-10 w-10 right-3 top-2 rounded-full flex items-center justify-center">
               <IoLocationOutline className="text-[#434343] text-xl" />
@@ -91,9 +91,9 @@ export default function Page_2() {
 
         <Button text="Search" />
       </div>
-      <div className="w-full p-3 h-[34rem] pt-[5rem] pb-5 overflow-y-scroll overflow-x-hidden overflow-hidden bg-[#f6f7f9] flex flex-col gap-4 items-center justify-center ">
-        <div className="bg-white transition-all w-full p-2 rounded-full shadow-sm flex items-center justify-center gap-2">
-        <Buttons text="Recent Jobs" className=" bg-black hover:text-[#959597] hover:bg-transparent text-[#dcdcdc] "/>
+      <div className="w-full p-3 h-[34rem] pt-[12.5rem] pb-24 overflow-y-scroll overflow-x-hidden overflow-hidden bg-[#f6f7f9] flex flex-col gap-4 items-center justify-center ">
+        <div className="bg-white fixed top-[19.4rem] transition-all w-full p-2 rounded-full shadow-sm flex items-center justify-center gap-2">
+        <Buttons text="Recent Jobs" className=" bg-black  text-[#dcdcdc] "/>
         <Buttons text="Popular Jobs" className=" hover:bg-black text-[#959597] hover:text-[#dcdcdc] "/>
         <Buttons text="Matches" className=" hover:bg-black text-[#959597] hover:text-[#dcdcdc] "/>
         </div>
