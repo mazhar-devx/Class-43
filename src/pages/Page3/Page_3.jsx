@@ -14,28 +14,28 @@ function Page_3() {
   return (
     <div>
       <div className=" fixed p-7 bottom-0 bg-white flex items-center justify-center gap-4 h-20 w-full ">
-        <div className="flex items-center justify-center h-16 bg-[#f7f7f7] rounded-full shadow-sm w-16">
+        <div className="flex items-center justify-center h-16 bg-[#f7f7f7] rounded-full shadow-sm w-20">
         <LuSquareStack className="text-2xl"/>
         </div>
           <Button text="Submit a Proposal" />
       </div>
-      <div className="flex items-center justify-between p-3">
+      <div className="flex items-center justify-between p-3 w-full fixed top-0">
         <IoIosArrowBack className="text-2xl text-black" />
         <div className="font-bold text-xl text-black">Bluemoon Studio</div>
         <BsThreeDotsVertical className="text-2xl text-black" />
       </div>
-      <div className="flex gap-10 p-5 w-full flex-col ">
+      <div className="flex pt-14 gap-9 p-5 w-full flex-col ">
         <div className="flex flex-col gap-2 relative">
           <img src={images} className="rounded-xl" alt="" />
-          <div className=" absolute w-32 h-32 rounded-full bg-[#69bdfb] border-2 border-white -bottom-9 left-10 flex items-center justify-center">
+          <div className=" absolute w-24 h-24 rounded-full bg-[#69bdfb] border-2 border-white -bottom-5 left-10 flex items-center justify-center">
             <GiFangsCircle className="text-6xl text-white" />
           </div>
           <div className="w-full text-end pr-10 text-sm text-[#d9dcdc]">
             3 Days Ago
           </div>
         </div>
-        <div className="flex flex-col gap-2">
-          <div className="font-bold text-2xl text-[#313b47]">
+        <div className="flex flex-col gap-4">
+          <div className="font-bold text-xl text-[#313b47]">
             Looking for Backend Developer for Crypto Dashboard
           </div>
           <div className="text-lg text-[#aaaeb1] font-medium">
@@ -73,7 +73,7 @@ function Page_3() {
           <div className="flex flex-col gap-2">
             <div className="font-bold text-lg text-[#232b34]">Project Overview</div>
            <div className="flex flex-col gap-4">
-            <div className="text-md text-[#85888a] font-medium">
+            <div className=" text-[#85888a] text-sm font-medium">
               We are a team of website design experts committed to helping you create on impressive and effective online presence. With extensive experience in the industry, we have the skills and knowlege needed to turn you vision into a stunning website. </div>
           </div>
             <div className="text-md text-[#85888a] font-medium">We understand that on attractive and intuitive website design is key to online success.</div>
