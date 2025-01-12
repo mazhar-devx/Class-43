@@ -44,8 +44,9 @@ export default function Page_2() {
 
           <div className="font-bold text-xl">Lowcer</div>
         </div>
-        <div className="flex gap-5 items-center">
+        <div className="flex gap-5 items-center relative">
           <LuBell className="text-2xl text-[#3a3e41]" />
+          <div className="w-2 h-2 top-2 left-3 bg-red-600 rounded-full absolute"></div>
           <div className="h-12 w-12 flex items-center justify-center rounded-full bg-[#dcdcd9]">
             <img
               src={src}
@@ -55,19 +56,19 @@ export default function Page_2() {
           </div>
         </div>
       </div>
-      <div className="p-4 flex flex-col gap-4 items-center justify-center">
-        <div className="flex relative w-full">
+      <div className=" flex flex-col items-center justify-center">
+        <div className="p-4 flex relative w-full">
           <input
             type="text"
             placeholder="Search type job"
             className="p-3.5 pr-20 bg-[#f6f7f9] placeholder:text-[#a9aaac] placeholder:font-medium w-full rounded-full border border-[#e5e5e7] "
           />
-          <div className=" absolute bg-white h-10 w-10 shadow-sm right-3 top-2 rounded-full flex items-center justify-center">
+          <div className=" absolute bg-white h-10 w-10 shadow-sm right-7 top-6 rounded-full flex items-center justify-center">
             <IoSearch className="text-lg text-[#464646]" />
           </div>
         </div>
-        <div className="flex gap-4 items-center w-full ">
-          <div className=" relative">
+        <div className="p-4 flex gap-4 items-center w-full ">
+          <div className=" relative w-full">
             <input
               type="text"
               placeholder="Job type...."
@@ -77,7 +78,7 @@ export default function Page_2() {
               <IoBagOutline className="text-[#434343] text-xl " />
             </div>
           </div>
-          <div className="relative">
+          <div className="relative w-full">
             <input
               type="text"
               placeholder="Location..."
@@ -88,15 +89,19 @@ export default function Page_2() {
             </div>
           </div>
         </div>
-
+        <div className="w-full p-4">
         <Button text="Search" />
-      </div>
-      <div className="w-full p-3 h-[34rem] pt-[12.5rem] pb-20 overflow-y-scroll overflow-x-hidden overflow-hidden bg-[#f6f7f9] flex flex-col gap-4 items-center justify-center ">
-        <div className="bg-white fixed top-[19.4rem] transition-all w-full p-2 rounded-full shadow-sm flex items-center justify-center gap-2">
+        </div>
+        <div className="w-full bg-[#f6f7f9] p-2  rounded-t-2xl">
+        <div className="bg-white   transition-all w-full p-2  rounded-full shadow-sm flex items-center justify-center gap-1">
         <Buttons text="Recent Jobs" className=" bg-black  text-[#dcdcdc] "/>
         <Buttons text="Popular Jobs" className=" hover:bg-black text-[#959597] hover:text-[#dcdcdc] "/>
         <Buttons text="Matches" className=" hover:bg-black text-[#959597] hover:text-[#dcdcdc] "/>
         </div>
+        </div>
+      </div>
+      <div className="w-full p-3 h-[34rem] pt-[4rem] pb-24 overflow-y-scroll overflow-x-hidden overflow-hidden bg-[#f6f7f9] flex flex-col gap-4 items-center justify-center ">
+       
         <Cards icon={GiFireAce} color= "bg-[#ec7f40]" text1="Create Packaging Designs for..." text2="Fireart Studio"/>
         <Cards icon={GiFangsCircle} color= "bg-[#6fbaef]" text1="Looking for Backend Develope..." text2="Bluemoon Studio"/>
       </div>

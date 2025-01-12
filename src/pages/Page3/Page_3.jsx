@@ -30,16 +30,18 @@ function Page_3() {
           <div className=" absolute w-24 h-24 rounded-full bg-[#69bdfb] border-2 border-white -bottom-5 left-10 flex items-center justify-center">
             <GiFangsCircle className="text-6xl text-white" />
           </div>
-          <div className="w-full text-end pr-10 text-sm text-[#d9dcdc]">
+          <div className="w-full text-end text-sm text-[#d9dcdc]">
             3 Days Ago
           </div>
         </div>
         <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-0">
           <div className="font-bold text-xl text-[#313b47]">
             Looking for Backend Developer for Crypto Dashboard
           </div>
           <div className="text-lg text-[#aaaeb1] font-medium">
             Bluemoon Studio
+          </div>
           </div>
           <div className="flex justify-between items-center">
             <div className="flex gap-3 items-center">

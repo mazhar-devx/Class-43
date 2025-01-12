@@ -44,7 +44,7 @@ function Button(props){
                      <FaStar className="text-xl text-[#f5b024]" />
                    </div>
                  </div>
-                 <div className="h-[2px] w-full bg-[#f1f1f1]"></div>
+                 <div className="h-[2px] w-full bg-[#f1f1f1de]"></div>
                  <div className="flex justify-between items-center pt-3">
                    <div className="flex gap-2 items-center">
                      <CiHeart className="text-3xl text-[#919193]" />
